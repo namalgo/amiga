@@ -100,7 +100,7 @@ int main(int argc, char **argv)
 		{
 			if (i % 8 == 0)
 			{
-				printf("\n %02x: ", i);
+				printf("\n %04x: ", i);
 			}
 
 			uint32_t longword = swap_endian(buf[i]);
